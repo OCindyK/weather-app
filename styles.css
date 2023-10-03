@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Gabarito:wght@700&display=swap');
+
+body {
+    background-color: #f0f0f0;
+}
+
+.form-control {
+    margin: 0 auto;
+    max-width: 300px; /* Adjust the max-width as needed */
+}
+
+.hourly-forecast {
+    border: 1px solid #c0bfbf;
+    padding: 20px;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.hourly-forecast h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.prev-button {
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    margin-right: 10px;
+}
+
+.next-button {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    margin-left: 10px;
+}
+
+.card {
+    margin: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+}
+
+.card-title {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+.weather-image {
+    width: 35px;
+    height: 35px;
+    display: block;
+    margin: 20px auto;
+}
+
+.card-text p {
+    white-space: nowrap;
+    margin: 5;
+}
